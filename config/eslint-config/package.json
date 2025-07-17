@@ -9,11 +9,17 @@
   ],
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
-    "eslint-plugin-simple-import-sort": "^12.0.0",
-    "@saas/prettier": "*"
+    "@saas/prettier": "*",
+    "eslint-plugin-simple-import-sort": "^12.0.0"
   },
   "prettier": "@saas/prettier",
   "eslintConfig": {
-    "extends": ["./library.js"]
+    "extends": [
+      "./library.js"
+    ]
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0"
   }
 }
