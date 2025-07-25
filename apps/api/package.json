@@ -1,0 +1,21 @@
+{
+    "name": "@saas/api",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "tsx watch src/index.ts"
+    },
+    "dependencies": {
+        "@saas/auth": "*"
+    },
+    "devDependencies": {
+        "@saas/prettier": "*",
+        "@saas/eslint-config": "*",
+        "@saas/tsconfig": "*"
+    },
+    "prettier": "@saas/prettier",
+    "eslintConfig": {
+        "extends": [
+            "@saas/eslint-config/node"
+        ]
+    }
+}
