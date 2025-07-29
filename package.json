@@ -11,6 +11,9 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "@types/node": "^24.1.0",
+    "eslint": "^8.57.0",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "prettier": "^3.6.2",
     "tsx": "^4.20.3",
